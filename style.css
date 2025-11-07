@@ -2084,3 +2084,159 @@ body.dark-mode .btn-group a.btn,
 body.dark-mode .btn-group .btn {
     font-weight: 600 !important;
 }
+
+/* ============================
+   SHOPPING CART STYLES
+   Add this to your style.css file
+   ============================ */
+
+/* Cart count badge in navigation */
+#cartCount {
+    background-color: #dc3545;
+    padding: 2px 6px;
+    border-radius: 50%;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+/* Cart page styles */
+.list-group-item {
+    padding: 1.5rem;
+    transition: background-color 0.3s ease;
+}
+
+.list-group-item:hover {
+    background-color: #f8f9fa;
+}
+
+body.dark-mode .list-group-item:hover {
+    background-color: #1c2128;
+}
+
+/* Cart item image */
+.list-group-item img {
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Quantity controls */
+.input-group-sm .btn {
+    min-width: 35px;
+}
+
+.input-group-sm .form-control {
+    max-width: 60px;
+    font-weight: bold;
+}
+
+/* Order summary card */
+.card.sticky-top {
+    transition: box-shadow 0.3s ease;
+}
+
+.card.sticky-top:hover {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+/* Empty cart icon animation */
+#emptyCart .display-1 {
+    animation: float 3s ease-in-out infinite ;
+}
+
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+}
+
+/* Cart button animations */
+.btn-outline-primary:hover,
+.btn-success:hover,
+.btn-danger:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Responsive cart layout */
+@media (max-width: 767px) {
+    .list-group-item {
+        padding: 1rem;
+    }
+    
+    .list-group-item .row > div {
+        margin-bottom: 0.5rem;
+    }
+    
+    .list-group-item img {
+        width: 60px !important;
+        height: 60px !important;
+    }
+    
+    .card.sticky-top {
+        position: relative !important;
+        top: 0 !important;
+    }
+}
+
+/* Dark mode cart styles */
+body.dark-mode .list-group-item {
+    background-color: #161b22;
+    border-color: #21262d;
+    color: #e6edf3;
+}
+
+body.dark-mode .input-group-sm .btn-outline-secondary {
+    color: #8b949e;
+    border-color: #30363d;
+}
+
+body.dark-mode .input-group-sm .btn-outline-secondary:hover {
+    background-color: #21262d;
+    color: #e6edf3;
+}
+
+body.dark-mode .input-group-sm .form-control {
+    background-color: #0d1117;
+    color: #e6edf3;
+    border-color: #30363d;
+}
+
+/* Loading state for order button */
+.btn:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+/* Price badge in cart */
+.badge.bg-primary {
+    font-size: 0.9rem;
+    padding: 0.5rem 0.8rem;
+}
+
+/* Cart item remove button */
+.btn-danger.btn-sm {
+    transition: all 0.3s ease;
+}
+
+.btn-danger.btn-sm:hover {
+    transform: scale(1.1);
+    box-shadow: 0 2px 8px rgba(220, 53, 69, 0.4);
+}
+
+/* Order summary text */
+.card-body h5 {
+    font-weight: 600;
+}
+
+.text-success {
+    font-weight: 500;
+}
+
+/* Secure checkout badge */
+.bi-shield-check::before {
+    content: "🔒";
+    margin-right: 0.25rem;
+}

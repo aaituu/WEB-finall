@@ -82,6 +82,9 @@ To create a professional, user-friendly website that demonstrates advanced web d
 - `index.html`
 - `gallery.html`
 - `menu.html`
+- `login/sigup.html`
+- `cart.html `
+- `profile.html`
 - `style.css` (design sections)
 - `/img/` folder
 

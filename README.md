@@ -21,7 +21,7 @@
 **Links:**
 
 - **GitHub Repository:** [GitHub](https://github.com/aaituu/WEB-finall)
-- **Live Website:** [Coffe PO](https://aaituu.github.io/WEB-final/)
+- **Live Website:** [Coffe PO](https://aaituu.github.io/WEB-finall/)
 
 ---
 

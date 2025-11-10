@@ -8,15 +8,12 @@
 
 **Team Name:** Coffe PO
 
-**Group:** SE-2436
+**Group:** SE-2404
 
 **Team Members:**
 
-1. Saqyp Dias
-2. Izimbetov Nurzhan
-3. Qazybai Ali
-4. Nurasyl Asan
-5. Altyngazinov Alinur
+1. Yermakhanbet Balgyn
+2. Markhabat Ayana
 
 **Links:**
 

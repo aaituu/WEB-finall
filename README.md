@@ -6,14 +6,17 @@
 
 **Project Title:** Coffee PO - Coffee Shop Website
 
-**Team Name:** Coffe PO
+**Team Name:** Master PO
 
-**Group:** SE-2404
+**Group:** SE-2436
 
 **Team Members:**
 
-1. Yermakhanbet Balgyn
-2. Markhabat Ayana
+1. Saqyp Dias
+2. Qazybai Ali
+3. Izimbetov Nurzhan
+4. Nurasyl Asan
+5. Altyngazimov Alinur
 
 **Links:**
 
